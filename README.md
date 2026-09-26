@@ -10,17 +10,17 @@
 
 # 👋 About Me
 
-I'm a **Cloud Infrastructure & DevOps Engineer** based in **Poland** with **6+ years in tech** (since 2020), supporting large-scale enterprise environments. I build, secure and automate infrastructure on **Microsoft Azure**, and I'm passionate about containers, Infrastructure as Code, and clean, repeatable delivery pipelines.
+I'm a **Cloud Infrastructure & DevOps Engineer** based in **Poland** with **6+ years in tech** (since 2020), designing, securing and operating infrastructure for large-scale enterprise environments on **Microsoft Azure**. I specialise in Azure networking, identity and governance, container platforms, Infrastructure as Code and automated delivery pipelines, turning manual, error-prone operations into repeatable, auditable processes.
 
-I learn by building. Every repository here is a hands-on lab, documented step by step with real terminal output, so anyone can follow along and reproduce it.
+I believe good infrastructure is only as strong as its documentation. The repositories here are reference implementations and runbooks, written the way I'd hand them over to a team: reproducible, verified and easy to operate.
 
-### 🔭 What I'm Focused On
+### 🔭 What I Do
 
-- Azure infrastructure, networking and governance
-- Containerisation with **Docker** and orchestration with **Kubernetes**
-- Infrastructure as Code with **Terraform**
-- CI/CD pipelines with **GitHub Actions** and **Azure DevOps**
-- Writing clear, reproducible technical guides on [dev.to](https://dev.to/forsyth_famous_)
+- Design and operate secure **Azure** infrastructure: networking, identity, governance and monitoring
+- Containerise and deploy workloads with **Docker** and **Kubernetes**
+- Provision infrastructure as code with **Terraform**
+- Build and maintain CI/CD pipelines with **GitHub Actions** and **Azure DevOps**
+- Publish technical guides for engineers on [dev.to](https://dev.to/forsyth_famous_)
 
 ---
 
@@ -55,61 +55,61 @@ I learn by building. Every repository here is a hands-on lab, documented step by
 
 ---
 
-# 🧪 Featured Projects & Labs
+# 🧰 Featured Projects
 
 ### 🐳 [Docker Compose WordPress Deployment](https://github.com/forsythfamous/Docker-Compose-WordPress-Deployment)
 > **A multi-container WordPress + MySQL stack with Docker Compose**
 
-Provisions, monitors and tears down a two-tier application with persistent volumes, service dependencies and port mapping. Each stage is backed by screenshots of real output.
+Provisions, monitors and tears down a two-tier application with persistent volumes, service dependencies and port mapping. Every stage is verified with captured output.
 - **Tech Stack**: `Docker Compose`, `MySQL 8.0`, `WordPress`, `Docker Desktop`
 
 ---
 
 ### ☸️ [Kubernetes Pod Manifest Architecture](https://github.com/forsythfamous/Kubernetes-Pod-Manifest-Architecture)
-> **Building a native Kubernetes Pod manifest from first principles**
+> **Kubernetes Pod specification: structure and API contract**
 
-Builds `pod.yaml` one field at a time (apiVersion, kind, metadata, spec and containers) and explains why each part of the API contract matters.
+A reference Pod manifest that breaks down the Kubernetes API contract (apiVersion, kind, metadata and spec) and sets out conventions for clean, version-controlled manifests.
 - **Tech Stack**: `Kubernetes`, `YAML`, `Nginx`, `Git`
 
 ---
 
 ### 📝 [YAML Ain't Markup Language](https://github.com/forsythfamous/Yaml-Aint-Markup-Language)
-> **A hands-on YAML lab for DevOps & Cloud Engineering**
+> **YAML patterns for DevOps & Cloud Engineering**
 
-Seven progressive lessons covering mappings, sequences, scalar types, multiline strings, anchors and aliases, followed by real-world GitHub Actions and app-config examples.
+A structured reference covering mappings, sequences, scalar types, multiline strings, anchors and aliases, followed by real-world GitHub Actions and app-config examples.
 - **Tech Stack**: `YAML`, `GitHub Actions`, `VS Code`
 
 ---
 
-### 🚀 [Nginx Dockerfile Walkthrough](https://github.com/forsythfamous/my-nginx-Dockerfile)
-> **Containerising a static web app on Nginx Alpine**
+### 🚀 [Nginx on Alpine: Container Image](https://github.com/forsythfamous/my-nginx-Dockerfile)
+> **A lean Nginx image for serving static content**
 
-Explains every Dockerfile directive and covers layer caching, port mapping and container-lifecycle troubleshooting.
+A minimal Alpine-based image with a clean web root and documented build directives, covering layer caching, port mapping and container-lifecycle troubleshooting.
 - **Tech Stack**: `Docker`, `Nginx`, `Alpine Linux`, `HTML`
 
 ---
 
 ### 🔁 [LoopCart: Git & CI/CD Workflow](https://github.com/forsythfamous/loopcart-remote)
-> **An end-to-end team Git workflow**
+> **An end-to-end team Git & delivery workflow**
 
-Covers feature branching, conventional commits, pull requests, applying code-review feedback, merging to main and triggering a CI/CD pipeline.
+Implements feature branching, conventional commits, pull requests, applying code-review feedback, merging to main and triggering a CI/CD pipeline.
 - **Tech Stack**: `Git`, `GitHub`, `Python`, `Bash`
 
 ---
 
-### 🛠️ More Labs
+### 🛠️ More Projects
 
 | Project | Description |
 | :--- | :--- |
 | [devops-lab](https://github.com/forsythfamous/devops-lab) | A Node.js app containerised with Docker, with build and run automated through a Makefile |
-| [simple-container-lab](https://github.com/forsythfamous/simple-container-lab) | Packaging a Node.js app in a container, from `docker build` to `git push` |
-| [DevOps-Workstation-Setup](https://github.com/forsythfamous/DevOps-Workstation-Setup) | Setting up and verifying a DevOps workstation: Git, Azure CLI, Docker, Terraform and VS Code |
+| [simple-container-lab](https://github.com/forsythfamous/simple-container-lab) | Container build-and-ship workflow for a Node.js service, from `docker build` to `git push` |
+| [DevOps-Workstation-Setup](https://github.com/forsythfamous/DevOps-Workstation-Setup) | A standardised DevOps workstation baseline: Git, Azure CLI, Docker, Terraform and VS Code |
 
 ---
 
 # ✍️ Latest Articles on dev.to
 
-I write step-by-step Azure guides based on hands-on labs.
+I publish practical Azure implementation guides for engineers and teams.
 
 | Article | Topic |
 | :--- | :--- |
@@ -157,7 +157,7 @@ I write step-by-step Azure guides based on hands-on labs.
 | [Implement retention, eDiscovery, and Communication Compliance in Microsoft Purview](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/implement-retention-ediscovery-and-communication-compliance-in-microsoft-purview) | Compliance |
 | [Create and manage automated processes by using Power Automate](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/create-and-manage-automated-processes-with-power-automate) | Automation |
 
-### 📚 Continuous Learning
+### 📚 Additional Training
 
 <p align="center">
   <img src="https://img.shields.io/badge/KodeKloud-Terraform_Basics-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="KodeKloud Terraform Basics" />
@@ -183,7 +183,7 @@ I write step-by-step Azure guides based on hands-on labs.
 - **Professional Networking:** [LinkedIn](https://www.linkedin.com/in/forsythazure)
 - **Technical Writing:** [dev.to/forsyth_famous_](https://dev.to/forsyth_famous_)
 - **Credentials:** [Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/forsythfamous-3964/)
-- **Open to:** Cloud & DevOps collaboration, knowledge sharing and new opportunities
+- **Open to:** Cloud & DevOps collaboration, technical consulting and new opportunities
 
 ---
 
