@@ -153,32 +153,32 @@ I publish practical Azure implementation guides for engineers and teams.
 # 📜 Certifications & Credentials
 
 <p align="center">
-  <a href="https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/certification/devops-engineer"><img src="https://img.shields.io/badge/AZ--400-DevOps_Engineer_Expert-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="AZ-400" /></a>
-  <a href="https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/certification/azure-administrator"><img src="https://img.shields.io/badge/AZ--104-Azure_Administrator-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="AZ-104" /></a>
-  <a href="https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/certification/azure-network-engineer-associate"><img src="https://img.shields.io/badge/AZ--700-Azure_Network_Engineer-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="AZ-700" /></a>
+  <a href="https://learn.microsoft.com/api/credentials/share/en-us/Forsythfamous-3964/5BAAF193E17745D8?sharingId=AE41C8CE11434D50"><img src="https://img.shields.io/badge/AZ--400-DevOps_Engineer_Expert-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="AZ-400" /></a>
+  <a href="https://learn.microsoft.com/api/credentials/share/en-us/Forsythfamous-3964/DF92838DC9D2E7C0?sharingId=AE41C8CE11434D50"><img src="https://img.shields.io/badge/AZ--104-Azure_Administrator-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="AZ-104" /></a>
+  <a href="https://learn.microsoft.com/api/credentials/share/en-us/Forsythfamous-3964/C1CC44551BE33731?sharingId=AE41C8CE11434D50"><img src="https://img.shields.io/badge/AZ--700-Azure_Network_Engineer-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="AZ-700" /></a>
 </p>
 
 ### 🏅 Microsoft Certifications
 
 | Certification | Exam | Earned | Verify |
 | :--- | :---: | :---: | :---: |
-| Microsoft Certified: DevOps Engineer Expert | AZ-400 | Jun 2026 | [🔗](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/certification/devops-engineer) |
-| Microsoft Certified: Azure Administrator Associate | AZ-104 | Feb 2026 | [🔗](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/certification/azure-administrator) |
-| Microsoft Certified: Azure Network Engineer Associate | AZ-700 | Jun 2025 | [🔗](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/certification/azure-network-engineer-associate) |
+| Microsoft Certified: DevOps Engineer Expert | AZ-400 | Jun 2026 | [🔗](https://learn.microsoft.com/api/credentials/share/en-us/Forsythfamous-3964/5BAAF193E17745D8?sharingId=AE41C8CE11434D50) |
+| Microsoft Certified: Azure Administrator Associate | AZ-104 | Feb 2026 | [🔗](https://learn.microsoft.com/api/credentials/share/en-us/Forsythfamous-3964/DF92838DC9D2E7C0?sharingId=AE41C8CE11434D50) |
+| Microsoft Certified: Azure Network Engineer Associate | AZ-700 | Jun 2025 | [🔗](https://learn.microsoft.com/api/credentials/share/en-us/Forsythfamous-3964/C1CC44551BE33731?sharingId=AE41C8CE11434D50) |
 
 ### 🧩 Microsoft Applied Skills
 
 | Credential | Area |
 | :--- | :--- |
-| [Configure secure access to your workloads using Azure networking](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/configure-secure-workloads-use-azure-virtual-networking) | Networking |
-| [Secure storage for Azure Files and Azure Blob Storage](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/secure-storage-azure-files-azure-blob-storage) | Storage & Security |
-| [Deploy and configure Azure Monitor](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/deploy-and-configure-azure-monitor) | Observability |
-| [Get started with cloud security and monitoring tasks](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/get-started-with-cloud-security-and-monitoring-tasks) | Security |
-| [Get started with Azure management tasks](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/get-started-with-azure-management-tasks) | Administration |
-| [Get started with identities and access using Microsoft Entra](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/get-started-with-identities-and-access-using-microsoft-entra) | Identity |
-| [Administer Active Directory Domain Services](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/administer-active-directory-domain-services) | Identity |
-| [Implement retention, eDiscovery, and Communication Compliance in Microsoft Purview](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/implement-retention-ediscovery-and-communication-compliance-in-microsoft-purview) | Compliance |
-| [Create and manage automated processes by using Power Automate](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/create-and-manage-automated-processes-with-power-automate) | Automation |
+| [Configure secure access to your workloads using Azure networking](https://learn.microsoft.com/api/credentials/share/en-us/Forsythfamous-3964/5AC8EB7AB20FD728?sharingId=AE41C8CE11434D50) | Networking |
+| [Secure storage for Azure Files and Azure Blob Storage](https://learn.microsoft.com/api/credentials/share/en-us/Forsythfamous-3964/D2AA4099D50AE689?sharingId=AE41C8CE11434D50) | Storage & Security |
+| [Deploy and configure Azure Monitor](https://learn.microsoft.com/api/credentials/share/en-us/Forsythfamous-3964/64970AD0DDB23409?sharingId=AE41C8CE11434D50) | Observability |
+| [Get started with cloud security and monitoring tasks](https://learn.microsoft.com/api/credentials/share/en-us/Forsythfamous-3964/871FEFDE3CFDE403?sharingId=AE41C8CE11434D50) | Security |
+| [Get started with Azure management tasks](https://learn.microsoft.com/api/credentials/share/en-us/Forsythfamous-3964/B80F55F3470B0214?sharingId=AE41C8CE11434D50) | Administration |
+| [Get started with identities and access using Microsoft Entra](https://learn.microsoft.com/api/credentials/share/en-us/Forsythfamous-3964/770CE074C6822AA9?sharingId=AE41C8CE11434D50) | Identity |
+| [Administer Active Directory Domain Services](https://learn.microsoft.com/api/credentials/share/en-us/Forsythfamous-3964/CBD217E553C8EAAA?sharingId=AE41C8CE11434D50) | Identity |
+| [Implement retention, eDiscovery, and Communication Compliance in Microsoft Purview](https://learn.microsoft.com/api/credentials/share/en-us/Forsythfamous-3964/3BAE18873CAA3DD?sharingId=AE41C8CE11434D50) | Compliance |
+| [Create and manage automated processes by using Power Automate](https://learn.microsoft.com/api/credentials/share/en-us/Forsythfamous-3964/D0D21E1EBAEEE09F?sharingId=AE41C8CE11434D50) | Automation |
 
 ---
 
