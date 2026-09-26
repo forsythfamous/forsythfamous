@@ -159,8 +159,15 @@ I write step-by-step Azure guides based on hands-on labs.
 
 ### 📚 Continuous Learning
 
-- **KodeKloud:** Terraform for Beginners
-- **KodeKloud:** Linux for Beginners
+<p align="center">
+  <img src="https://img.shields.io/badge/KodeKloud-Terraform_Basics-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="KodeKloud Terraform Basics" />
+  <img src="https://img.shields.io/badge/KodeKloud-Linux_Basics-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="KodeKloud Linux Basics" />
+</p>
+
+| Course | Provider | Completed | Certificate ID |
+| :--- | :---: | :---: | :--- |
+| Learning Linux Basics Course & Labs | KodeKloud | Jan 2026 | `1d3d6def-4d4f-4472-95bb-7bf283aec793` |
+| Terraform Basics Training Course | KodeKloud | Sep 2025 | `0c64d364-3e21-4212-b3a4-74bd3f846098` |
 
 ---
 
