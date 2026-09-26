@@ -1,0 +1,192 @@
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B3D91,100:00C9A7&height=240&section=header&text=Forsyth%20Famous%20O.&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Cloud%20Infrastructure%20%26%20DevOps%20Engineer%20%7C%20Azure%20%7C%20Poland&descSize=18&descAlignY=58" alt="Forsyth Famous O. — Cloud Infrastructure & DevOps Engineer" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=1000&color=00C9A7&center=true&vCenter=true&width=900&lines=Cloud+Infrastructure+%26+DevOps+Engineer;Microsoft+Certified%3A+DevOps+Engineer+Expert;Azure+Administrator+%7C+Azure+Network+Engineer;9+Microsoft+Applied+Skills+Credentials;Docker+%7C+Kubernetes+%7C+Terraform+%7C+Linux;Automate+everything.+Document+everything." alt="Cloud Infrastructure & DevOps Engineer, Azure certified, Docker, Kubernetes, Terraform, Linux" />
+
+</div>
+
+---
+
+# 👋 About Me
+
+I'm a **Cloud Infrastructure & DevOps Engineer** based in **Poland**, working in enterprise IT services across large-scale client environments. I build, secure and automate infrastructure on **Microsoft Azure**, and I'm passionate about containers, Infrastructure as Code, and clean, repeatable delivery pipelines.
+
+I learn by building. Every repository here is a hands-on lab, documented step by step with real terminal output, so anyone can follow along and reproduce it.
+
+### 🔭 What I'm Focused On
+
+- Azure infrastructure, networking and governance
+- Containerisation with **Docker** and orchestration with **Kubernetes**
+- Infrastructure as Code with **Terraform**
+- CI/CD pipelines with **GitHub Actions** and **Azure DevOps**
+- Writing clear, reproducible technical guides on [dev.to](https://dev.to/forsyth_famous_)
+
+---
+
+# 🛡️ Core Competencies
+
+- **Azure Administration:** Compute, storage, resource governance and day-to-day management tasks.
+- **Identity & Access:** Microsoft Entra ID, RBAC and Active Directory Domain Services.
+- **Security, Monitoring & Compliance:** Secure storage (Azure Files and Blob Storage), Azure Monitor, cloud security operations, and Microsoft Purview retention and eDiscovery.
+- **Azure Networking:** Virtual networks, hybrid connectivity, load balancing, network security and private access to PaaS services.
+- **DevOps & CI/CD:** Source control strategy, branching and pull-request workflows, build and release pipelines, and DevSecOps practices.
+- **Containers:** Writing Dockerfiles, multi-container stacks with Docker Compose, and Kubernetes manifests.
+- **Infrastructure as Code & Automation:** Terraform, YAML, Bash scripting and Makefile automation.
+- **Linux Administration:** Day-to-day operations, shell tooling and troubleshooting.
+
+---
+
+# ⚙️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=azure,terraform,docker,kubernetes,githubactions,linux,ubuntu,bash,git,github,nginx,nodejs,python,mysql,wordpress,vscode&perline=8" alt="Tech stack icons" />
+</p>
+
+| Domain | Tools & Platforms |
+| :--- | :--- |
+| **Cloud** | Microsoft Azure, Azure CLI, Azure Monitor, Microsoft Entra ID |
+| **Automation** | Power Automate, Bash, Makefile |
+| **Containers & Orchestration** | Docker, Docker Compose, Kubernetes |
+| **Infrastructure as Code** | Terraform, YAML |
+| **CI/CD & Version Control** | GitHub Actions, Azure DevOps, Git, GitHub |
+| **OS & Directory Services** | Linux (Ubuntu), Active Directory Domain Services |
+| **Web & Apps** | Nginx, Node.js, Python, MySQL, WordPress |
+
+---
+
+# 🧪 Featured Projects & Labs
+
+### 🐳 [Docker Compose WordPress Deployment](https://github.com/forsythfamous/Docker-Compose-WordPress-Deployment)
+> **A multi-container WordPress + MySQL stack with Docker Compose**
+
+Provisions, monitors and tears down a two-tier application with persistent volumes, service dependencies and port mapping. Each stage is backed by screenshots of real output.
+- **Tech Stack**: `Docker Compose`, `MySQL 8.0`, `WordPress`, `Docker Desktop`
+
+---
+
+### ☸️ [Kubernetes Pod Manifest Architecture](https://github.com/forsythfamous/Kubernetes-Pod-Manifest-Architecture)
+> **Building a native Kubernetes Pod manifest from first principles**
+
+Builds `pod.yaml` one field at a time (apiVersion, kind, metadata, spec and containers) and explains why each part of the API contract matters.
+- **Tech Stack**: `Kubernetes`, `YAML`, `Nginx`, `Git`
+
+---
+
+### 📝 [YAML Ain't Markup Language](https://github.com/forsythfamous/Yaml-Aint-Markup-Language)
+> **A hands-on YAML lab for DevOps & Cloud Engineering**
+
+Seven progressive lessons covering mappings, sequences, scalar types, multiline strings, anchors and aliases, followed by real-world GitHub Actions and app-config examples.
+- **Tech Stack**: `YAML`, `GitHub Actions`, `VS Code`
+
+---
+
+### 🚀 [Nginx Dockerfile Walkthrough](https://github.com/forsythfamous/my-nginx-Dockerfile)
+> **Containerising a static web app on Nginx Alpine**
+
+Explains every Dockerfile directive and covers layer caching, port mapping and container-lifecycle troubleshooting.
+- **Tech Stack**: `Docker`, `Nginx`, `Alpine Linux`, `HTML`
+
+---
+
+### 🔁 [LoopCart: Git & CI/CD Workflow](https://github.com/forsythfamous/loopcart-remote)
+> **An end-to-end team Git workflow**
+
+Covers feature branching, conventional commits, pull requests, applying code-review feedback, merging to main and triggering a CI/CD pipeline.
+- **Tech Stack**: `Git`, `GitHub`, `Python`, `Bash`
+
+---
+
+### 🛠️ More Labs
+
+| Project | Description |
+| :--- | :--- |
+| [devops-lab](https://github.com/forsythfamous/devops-lab) | A Node.js app containerised with Docker, with build and run automated through a Makefile |
+| [simple-container-lab](https://github.com/forsythfamous/simple-container-lab) | Packaging a Node.js app in a container, from `docker build` to `git push` |
+| [DevOps-Workstation-Setup](https://github.com/forsythfamous/DevOps-Workstation-Setup) | Setting up and verifying a DevOps workstation: Git, Azure CLI, Docker, Terraform and VS Code |
+
+---
+
+# ✍️ Latest Articles on dev.to
+
+I write step-by-step Azure guides based on hands-on labs.
+
+| Article | Topic |
+| :--- | :--- |
+| [How to Configure Azure Virtual Networks and Subnets for Virtual Machine Deployment](https://dev.to/forsyth_famous_/how-to-configure-azure-virtual-networks-and-subnets-for-virtual-machine-deployment-1g89) | Networking |
+| [How to Secure Azure Storage Using Managed Identities and RBAC](https://dev.to/forsyth_famous_/how-to-secure-azure-storage-using-managed-identities-and-rbac-57m) | Security |
+| [How to Configure Azure File Shares for Secure Enterprise File Storage](https://dev.to/forsyth_famous_/how-to-configure-azure-file-shares-for-secure-enterprise-file-storage-1hp4) | Storage |
+| [How to Secure Private Documents with Azure Blob Storage](https://dev.to/forsyth_famous_/how-to-secure-private-documents-with-azure-blob-storage-step-by-step-azure-guide-1i6i) | Storage |
+| [How to Host a Public Website Using Azure Blob Storage](https://dev.to/forsyth_famous_/how-to-host-a-public-website-using-azure-blob-storage-17ad) | Storage |
+| [How to Deploy a Linux Virtual Machine in Microsoft Azure and Connect Using SSH](https://dev.to/forsyth_famous_/how-to-deploy-a-linux-virtual-machine-in-microsoft-azure-and-connect-using-ssh-3ah7) | Compute |
+| [How to Prepare Your Azure Environment for Management and Administration Tasks](https://dev.to/forsyth_famous_/how-to-prepare-your-azure-environment-for-management-and-administration-tasks-2ea9) | Administration |
+
+<p align="center">
+  <a href="https://dev.to/forsyth_famous_"><img src="https://img.shields.io/badge/Read_more_on-dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Read more on dev.to" /></a>
+</p>
+
+---
+
+# 📜 Certifications & Credentials
+
+<p align="center">
+  <a href="https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/certification/devops-engineer"><img src="https://img.shields.io/badge/AZ--400-DevOps_Engineer_Expert-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="AZ-400" /></a>
+  <a href="https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/certification/azure-administrator"><img src="https://img.shields.io/badge/AZ--104-Azure_Administrator-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="AZ-104" /></a>
+  <a href="https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/certification/azure-network-engineer-associate"><img src="https://img.shields.io/badge/AZ--700-Azure_Network_Engineer-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="AZ-700" /></a>
+</p>
+
+### 🏅 Microsoft Certifications
+
+| Certification | Exam | Earned | Verify |
+| :--- | :---: | :---: | :---: |
+| Microsoft Certified: DevOps Engineer Expert | AZ-400 | Jun 2026 | [🔗](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/certification/devops-engineer) |
+| Microsoft Certified: Azure Administrator Associate | AZ-104 | Feb 2026 | [🔗](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/certification/azure-administrator) |
+| Microsoft Certified: Azure Network Engineer Associate | AZ-700 | Jun 2025 | [🔗](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/certification/azure-network-engineer-associate) |
+
+### 🧩 Microsoft Applied Skills
+
+| Credential | Area |
+| :--- | :--- |
+| [Configure secure access to your workloads using Azure networking](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/configure-secure-workloads-use-azure-virtual-networking) | Networking |
+| [Secure storage for Azure Files and Azure Blob Storage](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/secure-storage-azure-files-azure-blob-storage) | Storage & Security |
+| [Deploy and configure Azure Monitor](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/deploy-and-configure-azure-monitor) | Observability |
+| [Get started with cloud security and monitoring tasks](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/get-started-with-cloud-security-and-monitoring-tasks) | Security |
+| [Get started with Azure management tasks](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/get-started-with-azure-management-tasks) | Administration |
+| [Get started with identities and access using Microsoft Entra](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/get-started-with-identities-and-access-using-microsoft-entra) | Identity |
+| [Administer Active Directory Domain Services](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/administer-active-directory-domain-services) | Identity |
+| [Implement retention, eDiscovery, and Communication Compliance in Microsoft Purview](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/implement-retention-ediscovery-and-communication-compliance-in-microsoft-purview) | Compliance |
+| [Create and manage automated processes by using Power Automate](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/create-and-manage-automated-processes-with-power-automate) | Automation |
+
+### 📚 Continuous Learning
+
+- **KodeKloud:** Terraform for Beginners
+- **KodeKloud:** Linux for Beginners
+
+---
+
+# 🤝 Let's Connect
+
+<p align="center">
+  <a href="https://github.com/forsythfamous"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/forsythazure"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
+  <a href="https://dev.to/forsyth_famous_"><img src="https://skillicons.dev/icons?i=devto" alt="dev.to" /></a>
+</p>
+
+- **Location:** Poland 🇵🇱
+- **Professional Networking:** [LinkedIn](https://www.linkedin.com/in/forsythazure)
+- **Technical Writing:** [dev.to/forsyth_famous_](https://dev.to/forsyth_famous_)
+- **Credentials:** [Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/forsythfamous-3964/)
+- **Open to:** Cloud & DevOps collaboration, knowledge sharing and new opportunities
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=forsythfamous&color=00C9A7&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/forsythfamous?label=Followers&style=for-the-badge&color=0B3D91&logo=github" alt="GitHub Followers" />
+</p>
+
+<p align="center">
+  <b>Building reliable cloud infrastructure, one automated step at a time.</b>
+</p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B3D91,100:00C9A7&height=120&section=footer" alt="" />
