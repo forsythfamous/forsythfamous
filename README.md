@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B3D91,100:00C9A7&height=240&section=header&text=Forsyth%20Famous%20O.&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Cloud%20Infrastructure%20%26%20DevOps%20Engineer%20%7C%20Azure%20%7C%20Poland&descSize=18&descAlignY=58" alt="Forsyth Famous O. — Cloud Infrastructure & DevOps Engineer" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=1000&color=00C9A7&center=true&vCenter=true&width=900&lines=Cloud+Infrastructure+%26+DevOps+Engineer;Microsoft+Certified%3A+DevOps+Engineer+Expert;Azure+Administrator+%7C+Azure+Network+Engineer;9+Microsoft+Applied+Skills+Credentials;Docker+%7C+Kubernetes+%7C+Terraform+%7C+Linux;Automate+everything.+Document+everything." alt="Cloud Infrastructure & DevOps Engineer, Azure certified, Docker, Kubernetes, Terraform, Linux" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=1000&color=00C9A7&center=true&vCenter=true&width=900&lines=Cloud+Infrastructure+%26+DevOps+Engineer;6%2B+Years+in+Tech;Microsoft+Certified%3A+DevOps+Engineer+Expert;Azure+Administrator+%7C+Azure+Network+Engineer;9+Microsoft+Applied+Skills+Credentials;Docker+%7C+Kubernetes+%7C+Terraform+%7C+Linux;Automate+everything.+Document+everything." alt="Cloud Infrastructure & DevOps Engineer, Azure certified, Docker, Kubernetes, Terraform, Linux" />
 
 </div>
 
@@ -10,7 +10,7 @@
 
 # 👋 About Me
 
-I'm a **Cloud Infrastructure & DevOps Engineer** based in **Poland**, working in enterprise IT services across large-scale client environments. I build, secure and automate infrastructure on **Microsoft Azure**, and I'm passionate about containers, Infrastructure as Code, and clean, repeatable delivery pipelines.
+I'm a **Cloud Infrastructure & DevOps Engineer** based in **Poland** with **6+ years in tech** (since 2020), supporting large-scale enterprise environments. I build, secure and automate infrastructure on **Microsoft Azure**, and I'm passionate about containers, Infrastructure as Code, and clean, repeatable delivery pipelines.
 
 I learn by building. Every repository here is a hands-on lab, documented step by step with real terminal output, so anyone can follow along and reproduce it.
 
