@@ -57,7 +57,7 @@ I believe good infrastructure is only as strong as its documentation. The reposi
 
 # 🧰 Featured Projects
 
-### 💼 KONTA: AI Business OS <sub>🔒 private · in merchant pilot</sub>
+### 💼 KONTA: AI Business OS <sub>🔒 private</sub>
 > **An AI-assisted business ledger for small businesses, run from a web dashboard or WhatsApp**
 
 KONTA tracks sales, orders, inventory, customers, debtors and expenses. Merchants can send a WhatsApp text or voice note, and AI turns it into a *proposal*. Nothing changes in the books until a person confirms it, and the change itself is made by deterministic code.
