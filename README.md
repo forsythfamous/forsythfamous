@@ -170,18 +170,6 @@ I publish practical Azure implementation guides for engineers and teams.
 | [Implement retention, eDiscovery, and Communication Compliance in Microsoft Purview](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/implement-retention-ediscovery-and-communication-compliance-in-microsoft-purview) | Compliance |
 | [Create and manage automated processes by using Power Automate](https://learn.microsoft.com/en-us/users/forsythfamous-3964/credentials/applied-skill/create-and-manage-automated-processes-with-power-automate) | Automation |
 
-### 📚 Additional Training
-
-<p align="center">
-  <img src="https://img.shields.io/badge/KodeKloud-Terraform_Basics-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="KodeKloud Terraform Basics" />
-  <img src="https://img.shields.io/badge/KodeKloud-Linux_Basics-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="KodeKloud Linux Basics" />
-</p>
-
-| Course | Provider | Completed | Certificate ID |
-| :--- | :---: | :---: | :--- |
-| Learning Linux Basics Course & Labs | KodeKloud | Jan 2026 | `1d3d6def-4d4f-4472-95bb-7bf283aec793` |
-| Terraform Basics Training Course | KodeKloud | Sep 2025 | `0c64d364-3e21-4212-b3a4-74bd3f846098` |
-
 ---
 
 # 🤝 Let's Connect
