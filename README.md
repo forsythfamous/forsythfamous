@@ -40,22 +40,35 @@ I believe good infrastructure is only as strong as its documentation. The reposi
 # ⚙️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=azure,terraform,docker,kubernetes,githubactions,linux,ubuntu,bash,git,github,nginx,nodejs,python,mysql,wordpress,vscode&perline=8" alt="Tech stack icons" />
+  <img src="https://skillicons.dev/icons?i=azure,gcp,terraform,docker,kubernetes,githubactions,linux,ubuntu,bash,git,github,nginx,nodejs,ts,react,firebase,python,mysql,wordpress,vscode&perline=10" alt="Tech stack icons" />
 </p>
 
 | Domain | Tools & Platforms |
 | :--- | :--- |
-| **Cloud** | Microsoft Azure, Azure CLI, Azure Monitor, Microsoft Entra ID |
+| **Cloud** | Microsoft Azure, Azure CLI, Azure Monitor, Microsoft Entra ID, Google Cloud Run, Secret Manager, Firestore |
 | **Automation** | Power Automate, Bash, Makefile |
 | **Containers & Orchestration** | Docker, Docker Compose, Kubernetes |
 | **Infrastructure as Code** | Terraform, YAML |
 | **CI/CD & Version Control** | GitHub Actions, Azure DevOps, Git, GitHub |
 | **OS & Directory Services** | Linux (Ubuntu), Active Directory Domain Services |
-| **Web & Apps** | Nginx, Node.js, Python, MySQL, WordPress |
+| **Web & Apps** | TypeScript, React, Node.js / Express, Python, Nginx, MySQL, WordPress |
 
 ---
 
 # 🧰 Featured Projects
+
+### 💼 KONTA: AI Business OS <sub>🔒 private · in merchant pilot</sub>
+> **An AI-assisted business ledger for small businesses, run from a web dashboard or WhatsApp**
+
+KONTA tracks sales, orders, inventory, customers, debtors and expenses. Merchants can send a WhatsApp text or voice note, and AI turns it into a *proposal*. Nothing changes in the books until a person confirms it, and the change itself is made by deterministic code.
+
+- **Platform:** Containerised with a multi-stage Docker build (non-root runtime and health check) and deployed on **Google Cloud Run**. A least-privilege service account reads secrets from **Secret Manager**, and Firestore is locked down with deny-all rules, so all data access goes through the server.
+- **Security hardening:** WhatsApp webhook HMAC verification, API rate limiting, request size limits, CSP/HSTS security headers, input validation before building Firestore paths, and phone numbers masked in logs.
+- **Reliability:** Idempotent webhook processing, bounded timeouts on AI and messaging calls with safe retry rules, durable inbound and outbound message logs, and transactional ledger writes with concurrency isolation.
+- **Engineering practice:** 100+ automated test files running against both an in-memory database and the Firestore emulator. Every change ships through a pull request (70+ merged).
+- **Tech Stack**: `TypeScript`, `React`, `Node.js / Express`, `Firestore`, `Google Cloud Run`, `Secret Manager`, `Docker`, `Gemini AI`, `WhatsApp Cloud API`
+
+---
 
 ### 🐳 [Docker Compose WordPress Deployment](https://github.com/forsythfamous/Docker-Compose-WordPress-Deployment)
 > **A multi-container WordPress + MySQL stack with Docker Compose**
