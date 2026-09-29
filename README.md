@@ -130,6 +130,14 @@ Implements feature branching, conventional commits, pull requests, applying code
 
 ---
 
+# 🌍 Open Source Contributions
+
+| Project | Contribution |
+| :--- | :--- |
+| [cloudcost-cli](https://github.com/raphgm/cloudcost-cli) | [Added a `findings summary` command](https://github.com/raphgm/cloudcost-cli/pull/27) that rolls up FinOps policy findings per Azure resource and ranks them by combined cost impact, so teams know which resource to fix first |
+
+---
+
 # ✍️ Latest Articles on dev.to
 
 I publish practical Azure implementation guides for engineers and teams.
