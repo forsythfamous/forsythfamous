@@ -32,7 +32,7 @@ I believe good infrastructure is only as strong as its documentation. The reposi
 - **Secure Networking:** Designed **hub-spoke** network architectures with **private endpoints** across **5 Azure subscriptions**.
 - **Edge Security:** Protected web workloads with **Azure Application Gateway WAF**, combining Microsoft-managed rule sets with custom rules and **rate limiting** to block malicious and abusive traffic.
 - **Cost Optimisation:** Reduced compute spend by putting idle virtual machines on **deallocation and shutdown schedules**, so non-production capacity is paid for only when it's used.
-- **Product Engineering:** Built and hardened **KONTA**, a production AI platform on **Google Cloud Run** with **100+** automated test files and **70+** merged pull requests.
+- **Product Engineering:** Hardened and operated **KONTA**, a production AI platform on **Google Cloud Run** with **98** automated test files and **70+** merged pull requests.
 
 ---
 
