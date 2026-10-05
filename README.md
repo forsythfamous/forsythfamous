@@ -210,7 +210,6 @@ I publish practical Azure implementation guides for engineers and teams.
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=forsythfamous&color=00C9A7&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/forsythfamous?label=Followers&style=for-the-badge&color=0B3D91&logo=github" alt="GitHub Followers" />
 </p>
 
