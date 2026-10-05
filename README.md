@@ -4,6 +4,8 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=1000&color=00C9A7&center=true&vCenter=true&width=900&lines=Cloud+Infrastructure+%26+DevOps+Engineer;6%2B+Years+in+Tech;Microsoft+Certified%3A+DevOps+Engineer+Expert;Azure+Administrator+%7C+Azure+Network+Engineer;9+Microsoft+Applied+Skills+Credentials;Docker+%7C+Kubernetes+%7C+Terraform+%7C+Linux;Automate+everything.+Document+everything." alt="Cloud Infrastructure & DevOps Engineer, Azure certified, Docker, Kubernetes, Terraform, Linux" />
 
+<a href="https://forsythfamous.pages.dev"><img src="https://img.shields.io/badge/Website-forsythfamous.pages.dev-22C55E?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Website: forsythfamous.pages.dev" /></a>
+
 </div>
 
 ---
@@ -199,6 +201,7 @@ I publish practical Azure implementation guides for engineers and teams.
 </p>
 
 - **Location:** Poland 🇵🇱
+- **Website:** [forsythfamous.pages.dev](https://forsythfamous.pages.dev)
 - **Professional Networking:** [LinkedIn](https://www.linkedin.com/in/forsythazure)
 - **Technical Writing:** [dev.to/forsyth_famous_](https://dev.to/forsyth_famous_)
 - **Credentials:** [Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/forsythfamous-3964/)
