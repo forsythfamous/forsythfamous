@@ -77,7 +77,7 @@ KONTA tracks sales, orders, inventory, customers, debtors and expenses. Merchant
 - **Platform:** Containerised with a multi-stage Docker build (non-root runtime and health check) and deployed on **Google Cloud Run**. A least-privilege service account reads secrets from **Secret Manager**, and Firestore is locked down with deny-all rules, so all data access goes through the server.
 - **Security hardening:** WhatsApp webhook HMAC verification, API rate limiting, request size limits, CSP/HSTS security headers, input validation before building Firestore paths, and phone numbers masked in logs.
 - **Reliability:** Idempotent webhook processing, bounded timeouts on AI and messaging calls with safe retry rules, durable inbound and outbound message logs, and transactional ledger writes with concurrency isolation.
-- **Engineering practice:** 100+ automated test files running against both an in-memory database and the Firestore emulator. Every change ships through a pull request (70+ merged).
+- **Engineering practice:** 98 automated test files running against both an in-memory database and the Firestore emulator. Every change ships through a pull request (70+ merged).
 - **Tech Stack**: `TypeScript`, `React`, `Node.js / Express`, `Firestore`, `Google Cloud Run`, `Secret Manager`, `Docker`, `Gemini AI`, `WhatsApp Cloud API`
 
 ---
