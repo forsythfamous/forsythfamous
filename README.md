@@ -52,18 +52,18 @@ I believe good infrastructure is only as strong as its documentation. The reposi
 # ⚙️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=azure,gcp,terraform,docker,kubernetes,githubactions,linux,ubuntu,bash,git,github,nginx,nodejs,ts,react,firebase,python,mysql,wordpress,vscode&perline=10" alt="Tech stack icons" />
+  <img src="https://skillicons.dev/icons?i=azure,gcp,terraform,docker,kubernetes,githubactions,linux,ubuntu,bash,git,github,nginx,nodejs,ts,react,astro,cloudflare,firebase,python,mysql,wordpress,vscode&perline=11" alt="Tech stack icons" />
 </p>
 
 | Domain | Tools & Platforms |
 | :--- | :--- |
-| **Cloud** | Microsoft Azure, Azure CLI, Azure Monitor, Microsoft Entra ID, Google Cloud Run, Secret Manager, Firestore |
+| **Cloud** | Microsoft Azure, Azure CLI, Azure Monitor, Microsoft Entra ID, Google Cloud Run, Secret Manager, Firestore, Cloudflare Pages |
 | **Automation** | Power Automate, Bash, Makefile |
 | **Containers & Orchestration** | Docker, Docker Compose, Kubernetes |
-| **Infrastructure as Code** | Terraform, YAML |
+| **Infrastructure as Code** | Terraform, tflint, Trivy, YAML |
 | **CI/CD & Version Control** | GitHub Actions, Azure DevOps, Git, GitHub |
 | **OS & Directory Services** | Linux (Ubuntu), Active Directory Domain Services |
-| **Web & Apps** | TypeScript, React, Node.js / Express, Python, Nginx, MySQL, WordPress |
+| **Web & Apps** | TypeScript, React, Node.js / Express, Python, Astro, Nginx, MySQL, WordPress |
 
 ---
 
@@ -79,6 +79,29 @@ KONTA tracks sales, orders, inventory, customers, debtors and expenses. Merchant
 - **Reliability:** Idempotent webhook processing, bounded timeouts on AI and messaging calls with safe retry rules, durable inbound and outbound message logs, and transactional ledger writes with concurrency isolation.
 - **Engineering practice:** 100+ automated test files running against both an in-memory database and the Firestore emulator. Every change ships through a pull request (70+ merged).
 - **Tech Stack**: `TypeScript`, `React`, `Node.js / Express`, `Firestore`, `Google Cloud Run`, `Secret Manager`, `Docker`, `Gemini AI`, `WhatsApp Cloud API`
+
+---
+
+### 🌐 [Azure Hub-Spoke Network in Terraform](https://github.com/forsythfamous/azure-hub-spoke) · [case study](https://forsythfamous.pages.dev/work/azure-hub-spoke/)
+> **A private-by-default Azure network, changed only through a reviewed pipeline**
+
+A hub VNet with central Private DNS and an optional Azure Firewall, a workload spoke behind Application Gateway WAF_v2, and a data spoke whose storage is reachable only through a private endpoint. Changes go through GitHub Actions: plan on every pull request, apply only after an approval gate, authenticated with OIDC federated credentials and no client secrets.
+
+- **Security:** Storage public network access and shared keys disabled, per-subnet NSGs with explicit deny, no public IP on the backend VM, and WAF in Prevention mode (DRS 2.1 + Bot Manager) with an admin-path block and rate limiting.
+- **Quality gates:** `terraform fmt`, `validate`, offline `terraform test` against a mocked provider, `tflint` (azurerm ruleset) and a `trivy config` scan on every change. Six ADRs record the design decisions.
+- **Cost controls:** Optional firewall, App Gateway autoscaling from zero, a daily log ingestion cap and resource-group budgets.
+- **Tech Stack**: `Terraform`, `Azure`, `Application Gateway WAF_v2`, `Azure Firewall`, `Private Endpoints`, `GitHub Actions`, `OIDC`, `tflint`, `Trivy`
+
+---
+
+### 🖥️ [This Portfolio: a site that operates itself](https://github.com/forsythfamous/portfolio) · [live site](https://forsythfamous.pages.dev)
+> **A static site rebuilt, checked and deployed by its own pipeline**
+
+An Astro site on Cloudflare Pages, rebuilt by GitHub Actions on every push and every night from the GitHub and dev.to APIs. The home page shows the site's own pipeline as a live diagram, and each case study includes an interactive architecture diagram generated at build time.
+
+- **Security:** A strict Content Security Policy (`script-src` and `style-src` limited to `'self'`) with HSTS and other security headers. CI fails the build if any inline script or style appears.
+- **Resilience:** Every data source is optional. A failing API shows up as a warning on the diagram instead of breaking the site.
+- **Tech Stack**: `Astro`, `TypeScript`, `Cloudflare Pages`, `GitHub Actions`, `Wrangler`, `GitHub API`
 
 ---
 
