@@ -227,7 +227,7 @@ I publish practical Azure implementation guides for engineers and teams.
 - **Website:** [forsythfamous.pages.dev](https://forsythfamous.pages.dev)
 - **Professional Networking:** [LinkedIn](https://www.linkedin.com/in/forsythazure)
 - **Technical Writing:** [dev.to/forsyth_famous_](https://dev.to/forsyth_famous_)
-- **Credentials:** [Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/forsythfamous-3964/)
+- **Microsoft Learn:** [learning profile](https://learn.microsoft.com/en-us/users/forsythfamous-3964/) (completed learning paths and modules)
 - **Open to:** Cloud & DevOps collaboration, technical consulting and new opportunities
 
 ---
