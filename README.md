@@ -32,7 +32,7 @@ I believe good infrastructure is only as strong as its documentation. The reposi
 - **Secure Networking:** Designed **hub-spoke** network architectures with **private endpoints** across **5 Azure subscriptions**.
 - **Edge Security:** Protected web workloads with **Azure Application Gateway WAF**, combining Microsoft-managed rule sets with custom rules and **rate limiting** to block malicious and abusive traffic.
 - **Cost Optimisation:** Reduced compute spend by putting idle virtual machines on **deallocation and shutdown schedules**, so non-production capacity is paid for only when it's used.
-- **Product Engineering:** Hardened and operated **KONTA**, a production AI platform on **Google Cloud Run** with **98** automated test files and **70+** merged pull requests.
+- **Product Engineering:** Hardened and operated **KONTA**, a production AI platform on **Google Cloud Run** with **119** automated test files, **125+** merged pull requests and keyless, CI-gated deploys.
 
 ---
 
@@ -77,8 +77,9 @@ KONTA tracks sales, orders, inventory, customers, debtors and expenses. Merchant
 - **Platform:** Containerised with a multi-stage Docker build (non-root runtime and health check) and deployed on **Google Cloud Run**. A least-privilege service account reads secrets from **Secret Manager**, and Firestore is locked down with deny-all rules, so all data access goes through the server.
 - **Security hardening:** WhatsApp webhook HMAC verification, API rate limiting, request size limits, CSP/HSTS security headers, input validation before building Firestore paths, and phone numbers masked in logs.
 - **Reliability:** Idempotent webhook processing, bounded timeouts on AI and messaging calls with safe retry rules, durable inbound and outbound message logs, and transactional ledger writes with concurrency isolation.
-- **Engineering practice:** 98 automated test files running against both an in-memory database and the Firestore emulator. Every change ships through a pull request (70+ merged).
-- **Tech Stack**: `TypeScript`, `React`, `Node.js / Express`, `Firestore`, `Google Cloud Run`, `Secret Manager`, `Docker`, `Gemini AI`, `WhatsApp Cloud API`
+- **Engineering practice:** 119 automated test files running against both an in-memory database and the Firestore emulator, plus Playwright browser tests with an accessibility check. Every change ships through a pull request (125+ merged).
+- **Delivery:** CI runs on every pull request; production deploys run only after CI passes, from a clean checkout of `main`, authenticated with **Workload Identity Federation** (GitHub OIDC, no stored keys).
+- **Tech Stack**: `TypeScript`, `React`, `Node.js / Express`, `Firestore`, `Google Cloud Run`, `Secret Manager`, `Docker`, `GitHub Actions`, `Workload Identity Federation`, `Playwright`, `Gemini AI`, `WhatsApp Cloud API`
 
 ---
 
@@ -91,6 +92,18 @@ A hub VNet with central Private DNS and an optional Azure Firewall, a workload s
 - **Quality gates:** `terraform fmt`, `validate`, offline `terraform test` against a mocked provider, `tflint` (azurerm ruleset) and a `trivy config` scan on every change. Six ADRs record the design decisions.
 - **Cost controls:** Optional firewall, App Gateway autoscaling from zero, a daily log ingestion cap and resource-group budgets.
 - **Tech Stack**: `Terraform`, `Azure`, `Application Gateway WAF_v2`, `Azure Firewall`, `Private Endpoints`, `GitHub Actions`, `OIDC`, `tflint`, `Trivy`
+
+---
+
+### 📦 [One Image, Three Registries](https://github.com/forsythfamous/do-you-really-know-forsyth)
+> **A hardened container image shipped to Docker Hub, Azure ACR and Amazon ECR with one digest**
+
+A React + Express app re-containerised from scratch and released as one immutable image; the manifest digest was verified identical in all three registries. The README is a step-by-step runbook with verification screenshots.
+
+- **Hardening:** Multi-stage build with a distroless non-root runtime (no shell, no `node_modules`), an esbuild-bundled server, a health check and graceful SIGTERM handling (`docker stop` from 10.2 s to 0.2 s).
+- **Results:** Image from 759 MB to 219 MB; critical/high CVEs from 7/15 (ECR scan) and 4/62 (Trivy) to **0/0**.
+- **Registries:** ACR with Entra ID auth and the admin user off; ECR with immutable tags and scan on push.
+- **Tech Stack**: `Docker`, `Distroless`, `Azure Container Registry`, `Amazon ECR`, `Docker Hub`, `Trivy`
 
 ---
 
